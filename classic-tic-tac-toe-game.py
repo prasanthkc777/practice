@@ -10,7 +10,13 @@ Created on Wed Jun 23 19:52:53 2021
 ''' We will make the board using dictionary 
     in which keys will be the location(i.e : top-left,mid-right,etc.)
     and initialliy it's values will be empty space and then after every move 
-    we will change the value according to player's choice of move. '''
+    we will change the value according to player's choice of move. 
+    the positions in board is as 
+            '7'  , '8' , '9'  
+            '4' , '5' , '6' 
+            '1' , '2'  , '3' 
+    
+    '''
 
 theBoard = {'7': ' ' , '8': ' ' , '9': ' ' ,
             '4': ' ' , '5': ' ' , '6': ' ' ,
